@@ -1,0 +1,12 @@
+name: voiceworks
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - autopep8
+  - mypy
+  - requests
+  - pip
+  - pip:
+    - python-docx
+    - docxcompose
